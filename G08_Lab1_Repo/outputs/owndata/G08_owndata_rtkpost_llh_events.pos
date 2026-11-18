@@ -1,0 +1,8 @@
+% program   : RTKLIB ver.EX 2.5.0
+% inp file  : C:\Users\benta\Documents\GemimiProject\Project1\AAE4203\Labs\G08_Lab1_Repo\data\owndata\G08_owndata_20261030.obs
+% inp file  : C:\Users\benta\Documents\GemimiProject\Project1\AAE4203\Labs\G08_Lab1_Repo\data\owndata\G08_owndata_20261030.nav
+% obs start : 2026/10/30 08:13:30.0 GPST (week2442 461610.0s)
+% obs end   : 2026/10/30 08:22:38.0 GPST (week2442 462158.0s)
+%
+% (lat/lon/height=WGS84/ellipsoidal,Q=1:fix,2:float,3:sbas,4:dgps,5:single,6:ppp,ns=# of satellites)
+%  GPST                  latitude(deg) longitude(deg)  height(m)   Q  ns   sdn(m)   sde(m)   sdu(m)  sdne(m)  sdeu(m)  sdun(m) age(s)  ratio

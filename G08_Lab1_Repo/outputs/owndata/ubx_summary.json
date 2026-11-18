@@ -1,0 +1,104 @@
+{
+  "file_size_bytes": 9598503,
+  "message_counts": {
+    "0x03-0x09": 549,
+    "0x08-0x10": 1100,
+    "0x27-0x00": 6635,
+    "RXM-RAWX": 549,
+    "RXM-SFRBX": 5538,
+    "NAV-PVT": 548,
+    "NAV-ORB": 548,
+    "NAV-SAT": 548,
+    "NAV-SIG": 548,
+    "NAV-CLOCK": 548,
+    "NAV-SVIN": 548,
+    "NAV-RELPOSNED": 548,
+    "0x0C-0x31": 547,
+    "0x0C-0x34": 546,
+    "0x0C-0x43": 548,
+    "0x0A-0x11": 548,
+    "0x0C-0x4B": 548,
+    "0x0A-0x06": 548,
+    "0x0A-0x02": 548,
+    "MON-VER": 2,
+    "0x06-0x8B": 48,
+    "0x05-0x01": 24,
+    "0x0A-0x36": 109,
+    "0x04-0x04": 1
+  },
+  "mon_ver": [
+    "SW=EXT CORE 1.00 (0fa0ae)",
+    "HW=00190000",
+    "ROM BASE 0x118B2060",
+    "FWVER=HPG 1.32",
+    "PROTVER=27.31",
+    "MOD=ZED-F9P",
+    "GPS;GLO;GAL;BDS",
+    "SBAS;QZSS"
+  ],
+  "rawx_epochs": 549,
+  "rawx_week": 2442,
+  "rawx_tow_start_s": 461610.003,
+  "rawx_tow_end_s": 462158.004,
+  "rawx_duration_s": 548.001,
+  "rawx_leap_s": 18,
+  "nav_pvt_epochs": 548,
+  "nav_pvt_utc_start": "2026-10-30T08:13:12Z",
+  "nav_pvt_utc_end": "2026-10-30T08:22:19Z",
+  "nav_pvt_pdop_mean": 1.203,
+  "nav_pvt_num_sv_mean": 27.73,
+  "nav_pvt_speed_max_ms": 1.567,
+  "initial_static_epochs": 63,
+  "walking_epochs": 465,
+  "final_static_epochs": 20,
+  "cn0_by_constellation": {
+    "GPS": {
+      "obs_count": 5500,
+      "unique_sv": 9,
+      "mean_dbhz": 38.29,
+      "median_dbhz": 41.0,
+      "p10_dbhz": 24.0,
+      "p90_dbhz": 47.0
+    },
+    "SBAS": {
+      "obs_count": 1102,
+      "unique_sv": 4,
+      "mean_dbhz": 41.87,
+      "median_dbhz": 43.0,
+      "p10_dbhz": 37.0,
+      "p90_dbhz": 46.0
+    },
+    "Galileo": {
+      "obs_count": 5322,
+      "unique_sv": 8,
+      "mean_dbhz": 38.33,
+      "median_dbhz": 41.0,
+      "p10_dbhz": 24.0,
+      "p90_dbhz": 48.0
+    },
+    "BeiDou": {
+      "obs_count": 4436,
+      "unique_sv": 9,
+      "mean_dbhz": 34.93,
+      "median_dbhz": 36.0,
+      "p10_dbhz": 23.0,
+      "p90_dbhz": 45.0
+    },
+    "QZSS": {
+      "obs_count": 3287,
+      "unique_sv": 4,
+      "mean_dbhz": 36.92,
+      "median_dbhz": 38.0,
+      "p10_dbhz": 27.0,
+      "p90_dbhz": 45.0
+    },
+    "GLONASS": {
+      "obs_count": 6058,
+      "unique_sv": 9,
+      "mean_dbhz": 32.95,
+      "median_dbhz": 33.0,
+      "p10_dbhz": 20.0,
+      "p90_dbhz": 44.0
+    }
+  }
+}
